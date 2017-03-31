@@ -1,0 +1,52 @@
+{
+  "resnet18": {
+    "clip": 5,
+    "block1_size": 2,
+    "block2_size": 2,
+    "block3_size": 2,
+    "block4_size": 2,
+    "dataset": "cifar10_preloaded",
+    "datadir": "data/cifar10",
+    "learning_rate_decay_step": 50,
+    "num_epochs": 150
+  },
+  "resnet18-ternarized": {
+    "clip": 5,
+    "block1_size": 2,
+    "block2_size": 2,
+    "block3_size": 2,
+    "block4_size": 2,
+    "dataset": "cifar10_preloaded",
+    "datadir": "data/cifar10",
+    "learning_rate_decay_step": 50,
+    "num_epochs": 150,
+    "regularization_scale": 0,
+    "threshold": 0.05,
+    "ternarize": true
+  },
+  "resnet34": {
+    "clip": 5,
+    "block1_size": 3,
+    "block2_size": 4,
+    "block3_size": 6,
+    "block4_size": 3,
+    "dataset": "cifar10_preloaded",
+    "datadir": "data/cifar10",
+    "learning_rate_decay_step": 50,
+    "num_epochs": 150
+  },
+  "resnet34-ternarized": {
+    "clip": 5,
+    "block1_size": 3,
+    "block2_size": 4,
+    "block3_size": 6,
+    "block4_size": 3,
+    "dataset": "cifar10_preloaded",
+    "datadir": "data/cifar10",
+    "learning_rate_decay_step": 50,
+    "num_epochs": 150,
+    "regularization_scale": 0,
+    "threshold": 0.05,
+    "ternarize": true
+  }
+}
